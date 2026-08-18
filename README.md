@@ -139,7 +139,7 @@ Tested in order of increasing structure: **Markov → linear → GRU → LSTM �
 
 The probabilities of switching from one Roman numeral to the next, with cross-entropy computed on the transition matrix (Laplace smoothing):
 
-![Chord transition probabilities](images/hmap.png)
+![Chord transition probabilities](images/Markov hmap.png)
 
 A cross-entropy ≈ 2.20 equals a perplexity ≈ 9 — knowing only the previous chord drops the effective number of choices from 14 to about 9. This structure, together with the earlier literature, motivated the recurrent models that follow.
 
