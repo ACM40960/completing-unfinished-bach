@@ -234,7 +234,7 @@ For the future: using each chorale's scale to scale all variables in certain way
 
 For a visual overview of the methodology and results — including the audio demo QR code:
 
-[![Poster](https://img.shields.io/badge/View-Poster-blue)](Poster.pdf)
+[![Poster](https://img.shields.io/badge/View-Poster-blue)](Project's%20Scientific%20Poster.pdf)
 
 ## References
 
