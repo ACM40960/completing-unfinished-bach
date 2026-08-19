@@ -32,7 +32,6 @@
 - [Results](#results)
 - [Hearing the Result](#hearing-the-result)
 - [Repository Structure](#repository-structure)
-- [Running the Notebooks](#running-the-notebooks)
 - [Limitations and Future Work](#limitations-and-future-work)
 - [Project Poster](#project-poster)
 - [References](#references)
@@ -241,6 +240,30 @@ Out of roughly 300 possible complete chord specifications, the final model repro
 | ![Confusion matrix — raw](images/confusion_raw.png) | ![Confusion matrix — tau](images/confusion.png) |
 
 Full classification reports are generated in [`Notebooks/chained_model_evaluation.ipynb`](Notebooks/chained_model_evaluation.ipynb).
+
+## Repository Structure
+
+```plaintext
+completing-unfinished-bach/
+├── Notebooks/
+│   ├── data_extraction.ipynb            # Corpus search, duplicate removal, Roman numeral dataset
+│   ├── markov_analysis.ipynb            # Transition heatmaps, Markov cross-entropy baseline
+│   ├── model_sweeps.ipynb               # Linear / GRU / LSTM hyperparameter sweeps
+│   ├── chained_model_evaluation.ipynb   # Chained multitask LSTM, tau, confusion matrices
+│   └── audio_rendering.ipynb            # Bach vs model rendered to MIDI and .wav
+├── images/                              # Figures used in this README
+└── README.md                            # Project documentation
+```
+
+The numbered notebooks are **thematic excerpts** of one continuous pipeline, split for readability — later notebooks use variables defined in earlier ones. To execute the project end-to-end, run the notebooks in the order listed above within one session (or run the full combined notebook top to bottom).
+
+
+
+## Limitations and Future Work
+
+Chorales sharing the same BWV ID were spotted in two different formats (.krn and .mxl), both following the same principles apart from the way they handle repeated bars, so only one copy of each was kept; two chorales were also found to be two different harmonic interpretations of the same hymn.
+
+For the future: using each chorale's scale to scale all variables in certain ways, in order to avoid further class imbalances; and training separate models for major and minor modes, which would remove the need for the model to infer mode from context.
 
 ## Project Poster
 
