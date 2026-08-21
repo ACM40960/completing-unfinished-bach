@@ -238,9 +238,21 @@ For a visual overview of the methodology and results — including the audio dem
 
 ## References
 
-- Cuthbert & Ariza (2010). *music21: A toolkit for computer-aided musicology.* ISMIR.
-- Boulanger-Lewandowski, Bengio & Vincent (2012). *Modeling temporal dependencies in high-dimensional sequences.* ICML.
-- Hadjeres, Pachet & Nielsen (2017). *DeepBach: A steerable model for Bach chorales generation.* ICML.
+# References
+
+1. Todd, P. M., & Loy, D. G. (Eds.). (1991). *Music and Connectionism.* Cambridge, MA: The MIT Press.
+2. Hild, H., Feulner, J., & Menzel, W. (1992). HARMONET: A Neural Net for Harmonizing Chorales in the Style of J. S. Bach. In *Advances in Neural Information Processing Systems 4 (NIPS 1991)*, pp. 267–274.
+3. Eck, D., & Schmidhuber, J. (2002). Finding Temporal Structure in Music: Blues Improvisation with LSTM Recurrent Networks. In *Proceedings of the 12th IEEE Workshop on Neural Networks for Signal Processing*, pp. 747–756.
+4. Ji, S., Yang, X., & Luo, J. (2023). A Survey on Deep Learning for Symbolic Music Generation: Representations, Algorithms, Evaluations, and Challenges. *ACM Computing Surveys*, 56(1), Article 7, pp. 1–39. doi:10.1145/3597493
+5. Huang, C.-Z. A., Vaswani, A., Uszkoreit, J., Shazeer, N., Simon, I., Hawthorne, C., Dai, A. M., Hoffman, M. D., Dinculescu, M., & Eck, D. (2019). Music Transformer: Generating Music with Long-Term Structure. In *International Conference on Learning Representations (ICLR)*. arXiv:1809.04281
+6. Payne, C. (2019). MuseNet. OpenAI. https://openai.com/blog/musenet
+7. Dong, H.-W., Chen, K., McAuley, J., & Berg-Kirkpatrick, T. (2020). MusPy: A Toolkit for Symbolic Music Generation. In *Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR)*, pp. 101–108. arXiv:2008.01951
+8. Sayej, N. "An AI Completes an Unfinished Composition 115 Years After Composer's Death." *Vice.* https://www.vice.com/en/article/an-ai-completes-an-unfinished-composition-115-years-after-composers-death/
+9. "How an AI finished Beethoven's last symphony and what that means for the future of music." *BBC Science Focus.* https://www.sciencefocus.com/news/ai-beethovens-symphony
+10. "Schubert's 'Unfinished Symphony' completed by AI." *Classic FM.* https://www.classicfm.com/composers/schubert/unfinished-symphony-completed-by-ai/
+11. Cho, K., van Merriënboer, B., Gulcehre, C., Bahdanau, D., Bougares, F., Schwenk, H., & Bengio, Y. (2014). Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation. In *Proceedings of EMNLP*, pp. 1724–1734.
+12. Teoría.com. *Baroque Variations: J.S. Bach's Goldberg Variations.* https://www.teoria.com/en/tutorials/forms/variations/02-baroque.php
+
 
 ## Author
 
