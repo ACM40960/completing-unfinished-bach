@@ -217,7 +217,9 @@ completing-unfinished-bach/
 │   ├── chained_model_evaluation.ipynb   # Chained multitask LSTM, tau, confusion matrices
 │   └── audio_rendering.ipynb            # Bach vs model rendered to MIDI and .wav
 ├── images/                              # Figures used in this README
-└── Running the notebook.md              # Instructions on how to to run the notebooks
+├── Running the notebook.md              # Instructions on how to run the notebooks
+├── LICENSE.md                           # Project license
+├── Project's Scientific Poster.pdf      # A0 poster (methodology, results, audio QR code)
 └── README.md                            # Project documentation
 ```
 
