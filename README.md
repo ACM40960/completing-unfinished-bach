@@ -217,6 +217,7 @@ completing-unfinished-bach/
 │   ├── chained_model_evaluation.ipynb   # Chained multitask LSTM, tau, confusion matrices
 │   └── audio_rendering.ipynb            # Bach vs model rendered to MIDI and .wav
 ├── images/                              # Figures used in this README
+└── Running the notebook.md              # Instructions on how to to run the notebooks
 └── README.md                            # Project documentation
 ```
 
@@ -237,8 +238,6 @@ For a visual overview of the methodology and results — including the audio dem
 [![Poster](https://img.shields.io/badge/View-Poster-blue)](Project's%20Scientific%20Poster.pdf)
 
 ## References
-
-# References
 
 1. Todd, P. M., & Loy, D. G. (Eds.). (1991). *Music and Connectionism.* Cambridge, MA: The MIT Press.
 2. Hild, H., Feulner, J., & Menzel, W. (1992). HARMONET: A Neural Net for Harmonizing Chorales in the Style of J. S. Bach. In *Advances in Neural Information Processing Systems 4 (NIPS 1991)*, pp. 267–274.
